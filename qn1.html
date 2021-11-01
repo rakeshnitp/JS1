@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Assignment 1</title>
+    <script src="qn1.js"></script>
+   
+    <style>
+        hr {
+            height: 0px;
+            border-style: none;
+            border-color: black;
+            border-width: 10px;
+
+            width: 20%;
+        }
+        body{
+            text-align: left;
+            background-color: rgb(242, 245, 244);
+        }
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: rgb(223, 228, 228);
+        }
+    </style>
+    
+</head>
+
+<body>
+   
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Roll no</th>
+            <th>Question no</th>
+            </tr>
+        <tr>
+            <td>Rakesh Kumar</td>
+            <td>2006041</td>
+            <td>1</td>
+            
+        </tr>
+    </table>
+   
+    <h1>Procedure of connecting JS file with HTML file : </h2>
+    <p>We can include JavaScript in our HTML in three ways :</p>
+    <ul>
+        <li>Embedding Code</li>
+        <li>Inline Code</li>
+        <li>External File</li>
+    </ul>
+    <hr>
+    <h1 style="text-decoration: underline;">Embedding Code</h1>
+    <p>To add the JavaScript code into the HTML pages, we can use the script tag of the HTML that wrap around JavaScript
+        code inside the HTML program.</p>
+    
+    <script>document.write("This is an example of Embedding Code.")</script>
+    <script>document.write("In this example we saw how to add JavaScript in the body section")</script>
+    <hr>
+    <h1 style="text-decoration: underline;">Inline Code</h1>
+    <p>Generally, this method is used when we have to call a function in the HTML event attributes.</p>
+    <p> There are many cases (or events) in which we have to add JavaScript code directly eg., OnMover event, OnClick,
+        etc.</p>
+    <hr>
+    <h1 style="text-decoration: underline;">External File</h1>
+    <p>We can create external JavaScript file and embed it in many html page.</p>
+    <p>It provides code re usability because single JavaScript file can be used in several html pages.</p>
+    <p>An external JavaScript file must be saved by .js extension. It is recommended to embed all JavaScript files into
+        a single file. It increases the speed of the webpage.</p>
+</body>
+
+</html>
